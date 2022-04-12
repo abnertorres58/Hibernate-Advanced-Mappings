@@ -29,7 +29,7 @@ public class DeleteDemo {
             session.beginTransaction();
 
             // Get the instructor by primary key / id
-            int theId = 1;
+            int theId = 4;
             Instructor tempInstructor = session.get(Instructor.class, theId);
 
             System.out.println("Found instructor: " + tempInstructor);
